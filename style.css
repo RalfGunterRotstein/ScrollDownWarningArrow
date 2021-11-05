@@ -1,0 +1,28 @@
+.scroll-down-warning-arrow__container {
+    height: 100px;
+    text-align: center;
+}
+
+#scroll-down-warning-arrow {
+    height: 100px;
+    cursor: pointer;
+
+    opacity: 0;
+    animation: blink 3s infinite ease-in-out;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+svg {
+    fill: #4d7eda;
+}
